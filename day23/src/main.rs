@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 fn main() {
-    let mut source : Vec<&str> = include_str!("./input.txt").lines().collect();
+    let mut source : Vec<&str> = include_str!("./input_a.txt").lines().collect();
     let mut amp = 0;
     let amps = 50;
 
@@ -19,7 +19,7 @@ fn main() {
         p_inputs.insert(i, vec![i as isize]);
         p_exit_codes.insert(i, Ok(0));
 
-        println!("Amplifier {}: Created!", i);
+        //println!("Amplifier {}: Created!", i);
     }
 
     loop {
@@ -49,14 +49,18 @@ fn main() {
 
                 println!("Amplifier {}: Target Amp: {} ({}, {})", amp, n, x, y);
 
-                if (n == 255) {
+                
+                if n == 255 {
                     nat_outputs[0] = x;
                     nat_outputs[1] = y;
+                    println!("Amplifier {}: Target Amp: {} ({}, {})", amp, n, x, y);
                 } else {
+              
                     let mut n_input = p_inputs.get_mut(&n).unwrap();
                     n_input.push(x);
                     n_input.push(y);
 
+                    println!("Amplifier {}: Target Amp: {} ({}, {})", amp, n, x, y);
                     nat_sleeping[n] = false;
                 }
             }
@@ -69,7 +73,6 @@ fn main() {
             let mut input = p_inputs.get_mut(&amp).unwrap();
             if a_program.input_ctr == input.len() {
                 input.push(-1);
-
                 nat_sleeping[amp] = true;
             }
         }
