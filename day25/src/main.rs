@@ -1,14 +1,19 @@
 use std::collections::HashMap;
 use std::io;
+use std::fs;
 
 fn main() {
-    let mut source : Vec<&str> = include_str!("./input_a.txt").lines().collect();
+    let mut source : Vec<&str> = include_str!("./input.txt").lines().collect();
+    let mut source_in: &str = include_str!("../input_b_input.txt").trim();
 
     let mut a_program = Program::new(source[0], 1000);
     let mut output = Ok(0);
     let mut output_ctr = 0;
     let mut outputs: Vec<u8> = vec![];
     let mut input: Vec<isize> = vec![];
+
+    let mut a = source_in.clone().to_string().into_bytes().iter().map(|&x| x as isize).collect::<Vec<isize>>();
+    input.append(&mut a);
 
     loop {
 
@@ -35,6 +40,12 @@ fn main() {
         }
 
         if output == Err(99) {
+            let s = String::from_utf8(outputs.clone()).unwrap();
+            outputs.clear();
+            println!("{}", s);
+            println!("Saving inputs into file");
+            let mut inp = String::from_utf8(input.clone().iter().map(|&x| x as u8).collect()).unwrap();
+            fs::write("./input_b_input.txt", inp);
             println!("Halt!");
             break;
         }

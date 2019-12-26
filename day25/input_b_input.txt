@@ -1,0 +1,192 @@
+north
+north
+take coin
+east
+take tambourine
+west
+west
+take spool of cat6
+north
+take weather machine
+west
+take mutex
+west
+east
+east
+south
+east
+west
+south
+north
+east
+south
+north
+east
+west
+south
+east
+take candy cane
+north
+south
+south
+take hypercube
+east
+west
+north
+north
+south
+west
+south
+south
+west
+north
+take fuel cell
+west
+east
+south
+east
+north
+south
+west
+north
+south
+east
+west
+east
+north
+north
+north
+wes
+west
+north
+west
+east
+south
+east
+inv
+south
+south
+south
+west
+north
+west
+east
+south
+east
+north
+north
+east
+south
+east
+west
+north
+north
+south
+west
+north
+east
+west
+west
+south
+north
+north
+west
+west
+inv
+drop mutex
+drop tambourine
+drop coin
+drop candy cane
+drop weather machine
+inv
+take weather machine
+drop hypercube
+inv
+west
+inv
+drop fuell cell
+take hypercube
+west
+inv
+drop fuell cell
+drop fuel cell
+inv
+west
+inv
+take coin
+take candy cane
+take tambourine
+take fuel cell
+take mutex
+inv
+west
+inv
+drop candy cane
+west
+inv
+drop tambourine
+west
+inv
+drop spool of cat6
+west
+spool of cat6
+take spool of cat6
+inv
+drop fuel cell
+inv
+west
+inv
+drop mutex
+west
+inv
+drop weather machine
+west
+inv
+take candy cane
+west
+take tambourine
+west
+inv
+take fuel cell
+west
+take mutex
+west
+take weather machine
+west
+inv
+drop spool of cat6
+west
+inv
+take spool of cat6
+drop hypercube
+west
+inv
+drop coin
+drop candy cane
+drop fuel cell
+drop mutex
+inv
+drop tambourine
+take hypercube
+inv
+west
+take coin
+west
+drop coin
+take mutex
+west
+drop mutex
+take fuel cell
+inv
+west
+inv
+take tambourine
+west
+drop tambourine
+take candy cane
+west
+drop fuel cell
+west
+drop candy cane
+take tambourine
+west

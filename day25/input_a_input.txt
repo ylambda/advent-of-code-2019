@@ -1,0 +1,62 @@
+north
+take wreath
+east
+east
+east
+take weather machine
+west
+west
+west
+west
+north
+south
+east
+south
+south
+south
+take candy cane
+north
+west
+take prime number
+west
+take astrolabe
+east
+east
+north
+east
+take food ration
+east
+west
+south
+east
+west
+south
+north
+east
+south
+take hypercube
+north
+south
+east
+take space law space brochure
+north
+inv
+drop wreath
+drop hypercube
+drop space law space brochure
+drop astrolabe
+drop prime number
+inv
+west
+drop weather machine
+take wreath
+west
+drop wreath
+take space law space brochure
+inv
+west
+take astrolabe
+westwest
+south
+north
+west
